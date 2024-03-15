@@ -44,7 +44,7 @@ export default function Home() {
           <div className='details w-fit pr-4 sm:pr-0'>
             <div className='about backlit'>
               <p className='about-header'>Hardeep Gambhir</p>
-              <p className='about-subheader'> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Currently Dreaming to get <p></p> into Shopify DevDegree at DUC</p>
+              <p className='about-subheader'> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Currently Dreaming to get <p></p> into Shopify DevDegree at DUC</p>
             </div>
             <div className='contact pt-4 backlit'>
               <p><a href="mailto:me@hardeep.tube" target="_blank" rel="noopener noreferrer">Email</a></p>
