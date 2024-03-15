@@ -38,14 +38,13 @@ export default function Home() {
             <div className="font-semibold">Use `help` for command options</div>
             <div className="font-semibold">Type `Esc` key to exit terminal and use cursor</div>
           </div>
-          <div className="image-container justify-center w-full flex justify-center" style={{ maxWidth: '10%', margin: '0 auto' }}>
+          <div className="justify-center" style={{ maxWidth: '10%', margin: '0 auto' }}>
           <img src="shopify3.png" alt="Descriptive Text" />
         </div>
           <div className='details w-fit pr-4 sm:pr-0'>
             <div className='about backlit'>
               <p className='about-header'>Hardeep Gambhir</p>
-              <p className='about-subheader'>Dreamer</p>
-              <p className='about-subheader'>Currently Daydreaming to get into Shopify DevDegree at DUC</p>
+              <p className='about-subheader'> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Currently Dreaming to get <p></p> into Shopify DevDegree at DUC</p>
             </div>
             <div className='contact pt-4 backlit'>
               <p><a href="mailto:me@hardeep.tube" target="_blank" rel="noopener noreferrer">Email</a></p>
