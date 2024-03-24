@@ -66,7 +66,9 @@ export default function Home() {
               <div key={i} className="flex flex-row space-x-32 pl-32" ref={footerContentRef}>
                 <Link className="link" target="_blank" href="https://www.livetheresidency.com/" rel="noopener noreferrer"><p className="footer-text">The Residency</p></Link>
                 <Link className="link" target="_blank" href="https://www.hardeepgambhir.substack.com/" rel="noopener noreferrer"><p className="footer-text">Read My <span className="m1-bold">Substack</span></p></Link>
-                <Link className="link" target="_blank" href="https://hardeeps-iphone-notes.super.site/" rel="noopener noreferrer"><p className="footer-text">Notes from my iPhone</p></Link>
+                <Link className="link" target="_blank" href="https://devpost.com/software/focusbracelet" rel="noopener noreferrer"><p className="footer-text">FO.CUS: BCI Focus Tracker</p></Link>
+                <Link className="link" target="_blank" href="https://devpost.com/software/mailreach" rel="noopener noreferrer"><p className="footer-text">B2B SaaS Email Automation Software</p></Link>
+                
               </div>
             ))}
           </div>

@@ -19,6 +19,7 @@ Available Commands:
 - **whydevdegree:** why I want to get into the DevDegree program at Shopify
 - **proj:** see a list of my featured projects
 - **view reading:** You can see what I'm reading by typing this command
+- **whyhardeep:** Why I am unsually confident that I am a good fit for this
 - **clear:** clear the terminal`;
     }
   },
@@ -28,23 +29,57 @@ Available Commands:
     action: () => {
       return `
 
-    I come from a low-income family in India/Canada but i have never let 
-    it hinder my creativity and ambition.
+    I come from a low-income family from India/Canada but I have never let 
+    my environment hinder my creativity and ambition.
 
-    After working hard to get into university, I was able to
-    get full-ride scholarships to 3 universities in Canada.
+    At age 13, I moved to Canada to my truck-driving father who was away
+    from home six days a week. I learned to take care of myself early
+    and work hard to eventually be a recipient of three full-ride 
+    scholarships for universities in Canada.
 
-    I had a 3.7/4.0 GPA but it didn't feel right. I realized I wanted to do 
-    more practical things and this wasn't my place.
-
-    Like i'd had done all my life before the uni applications season.
+    I had a 3.7/4.0 GPA in my first year but it didn't feel right. I 
+    realized I wanted to apply the knowledge I was learning to solve
+    real world problems and university wasn't giving me the time to do that. 
     
-    DevDegree is the only program I applied to transfer because 
-    it seems as the only program that would help me accomplish my desire
-    to practially apply my skills learned.
+    Thus, DevDegree program is a perfect fit for me. Type whyhardeep to 
+    know why I am confident I am a good fit for your program too.
 
-    I amd disappointed I got rejected after my personal statements 
-    evaluation. But i am not quitting, just yet.`;
+    I am disappointed I got rejected after my personal statements 
+    evaluation. But I am not quitting - this is important.`;
+    }
+  },
+  {
+    command: 'whyhardeep',
+    description: 'Why I am unsually confident that I am a good fit for this',
+    action: () => {
+      return `I know I am just one of the many names in your database of applicants. 
+      
+      I do not know much about MongoDB, Svelt or whatever technology you use 
+      to be honest. 
+      
+      But what I do know is every single alumini of yours from the 20 
+      I have talked to has been an internet kid. 
+
+      They are not necessarily the kids who got a perfect GPA. Rather the kids 
+      who were fixing weird errors on their laptops growing up.
+
+      I do not know much, but I do know I fall in that category. 
+      
+      Only through being this internet kid I was able to scrape emails of almost all 
+      DevDegree interns from DUC through LinkedIn and cold-email them 
+      to be able to get on calls with some of them. 
+
+      Ony through this persistence, I have been able to make this website in 
+      2 days and send it to Shopify Employees by scrapping all of your emails
+      through the web. 
+
+      I know and respect that you do not look at grades. And I am not sure 
+      what it was in my application that got me screened out. But for once,
+      my intuition/spidey-sense tells me I can make something work here.
+      
+      And whoever is reading this, I would just appreciate if in any way 
+      you can send an email with this website to canny.chiu@shopify.com who
+      is in charge of this year's admissions so far as I have heard.`;
     }
   },
   {
@@ -52,33 +87,32 @@ Available Commands:
     description: 'About me.',
     action: () => {
       return `Hello, I\’m Hardeep. 
-      
-    This website is designed and engineered to show my creativity and 
-    desire to get into the DevDegree.
     
-    I'm 20. I have made software for the Brain and 
-    Mind Institute in Canada that will be used globally by UNESCO to 
-    improve mathematical skills in children.
+    I'm 20. I am a community-builder, software engineer, product-designer, 
+    artist, videographer, cinematographer, writer, human.
 
-    Deep down though, I love building communities! 
-    
-    DevDegree is the only program I applied to transfer and am 
-    disappointed I got rejected after my personal statements evaluation. 
-    
-    I think this will be a good example to showcase that and show 
-    a little bit more of my personality with hopes I can atleast
-    get an interview :)`;
+    This website is designed and engineered to show my creativity and 
+    desire to get into DevDegree Program.
+
+    DevDegree is the only program I applied to transfer because 
+    it seems as the only program that would help me accomplish my desire
+    to practially apply my skills learned. I am disappoitned of my 
+    rejection but I am not giving up just yet.
+
+    I think this website will be a good example to show a little bit 
+    more of my personality and creativity with hopes I can atleast 
+    get an interview to turn things around for myself :)`;
     }
   },
   {
     command: 'proj',
     description: 'List of projects.',
     action: () => {
-      return `Building side projects is my favorite thing to do. Here’s a list of some of my favs; in no particular order:
-- **The Residency:** A home for ambitious young people. Backed by Sam Altman. Companies have come out to be accepted in YC and raised $2M+. You can check it out at the carousal below.
-- **Numeracy Screener:** A software I made for the Brain and Mind Institute at my university - anticipated to be used by UNESCO in Africa amongst other places to 300,000+ children.
+      return `Building side projects is my favorite thing to do. Here’s a list of some, all are linked in the carousal below:
+- **The Residency:** A home for ambitious young people. Backed by Sam Altman. Companies have come out to be accepted in YC and raised $2M+.
+- **Numeracy Screener:** A software I made for the Brain and Mind Institute at my university - anticipated to be used by UNESCO in Africa and Ministry of Education in Canada impacting around 300,000+ children.
 - **FO.CUS:** A hackathon project, which is a web application connected to a BCI which tracks focus and notifies user of distractions for people with ADHD.
-- **Stay Woke Non Profit:** A non-profit organization I led in high school and helped scale from provincially to federally in Canada. 1600+ members. You can check it out at [Stay Woke](https://www.staywokeevent.com/)
+- **Stay Woke Non Profit:** A non-profit organization I led in high school and helped scale from provincially to federally in Canada. 1600+ members.
 
 You may have noticed I have a default naming convention :)`;
     }
